@@ -15,15 +15,13 @@ for i in range(n):
         if arr[j] > arr[j + 1]:
             arr[j], arr[j + 1] = arr[j + 1], arr[j]
             swapped = True
-            print(f"  => Swapped: {arr}")
+            print(f"   Swapped: {arr}")
         else:
-            print("  => No swap needed")
+            print("No swap needed")
     
     #in ra sau moi lan doi
     print(f"Array after pass {i + 1}: {arr}\n")
 
     if not swapped:
         break
-
-
 print("Sorted array:", arr)
