@@ -1,3 +1,4 @@
+#kai
 # Enter a non-negative integer
 n = int(input("Enter a non-negative integer: "))
 
