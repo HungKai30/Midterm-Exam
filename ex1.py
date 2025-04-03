@@ -1,3 +1,5 @@
+#kai
+#ex1
 import math
 
 def is_prime(n):
@@ -12,7 +14,7 @@ def is_prime(n):
 
 n = int(input("Type n "))
 
-# Kiểm tra và in kết quả
+
 if is_prime(n):
   print(n, "is a prime number")
 else:
